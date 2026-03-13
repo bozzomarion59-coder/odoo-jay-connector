@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- Extend Settings Form -->
+    <record id="res_config_settings_view_form_jay" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.jay</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="Jay" string="Jay" groups="base.group_system">
+                    <block title="Jay CRM Assistant" name="jay_settings">
+                        <setting string="Jay Connection" help="Connect your Odoo instance to Jay AI CRM Assistant. Jay lets you manage your CRM with voice commands.">
+                            <div class="content-group">
+                                <div class="row mt16">
+                                    <label for="jay_api_url" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="jay_api_url" class="col-9 col-lg-6" placeholder="https://www.jay-assistant.fr"/>
+                                </div>
+                                <div class="row mt8">
+                                    <label for="jay_user_email" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="jay_user_email" class="col-9 col-lg-6" placeholder="your@email.com"/>
+                                </div>
+                                <div class="row mt8">
+                                    <label for="jay_api_key" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="jay_api_key" class="col-9 col-lg-6" password="True" placeholder="Your Jay API key"/>
+                                </div>
+                                <div class="row mt8">
+                                    <label for="jay_connected" class="col-3 col-lg-3 o_light_label"/>
+                                    <field name="jay_connected" class="col-9 col-lg-6" widget="boolean_toggle" readonly="1"/>
+                                </div>
+                                <div class="row mt16">
+                                    <div class="col-3 col-lg-3"/>
+                                    <div class="col-9 col-lg-6">
+                                        <button name="action_test_jay_connection"
+                                                type="object"
+                                                string="Test Connection"
+                                                class="btn-primary me-2"
+                                                icon="fa-plug"/>
+                                        <button name="action_disconnect_jay"
+                                                type="object"
+                                                string="Disconnect"
+                                                class="btn-secondary"
+                                                icon="fa-times"
+                                                invisible="not jay_connected"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="How it works" name="jay_info">
+                        <setting string="Voice-to-CRM" help="Record a voice note in Jay, and your contacts, deals, activities, and meetings are automatically synced to Odoo."/>
+                        <setting string="Supported objects" help="Contacts, Companies, Opportunities (CRM Leads), Activities, Calendar Events, and Notes."/>
+                        <setting string="Anti-duplicate" help="Jay detects existing records before creating new ones to keep your data clean."/>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

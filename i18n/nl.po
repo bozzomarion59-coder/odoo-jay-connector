@@ -1,0 +1,76 @@
+# Dutch translation for Jay CRM Assistant
+msgid ""
+msgstr ""
+"Project-Id-Version: Jay CRM Assistant 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: hey@jay-assistant.fr\n"
+"POT-Creation-Date: 2026-03-13 12:00+0000\n"
+"PO-Revision-Date: 2026-03-13 12:00+0000\n"
+"Last-Translator: HEY JAY <hey@jay-assistant.fr>\n"
+"Language-Team: Dutch\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Jay CRM Assistant"
+msgstr "Jay - CRM Assistent"
+
+msgid "Jay Connection"
+msgstr "Jay Verbinding"
+
+msgid "Connect your Odoo instance to Jay AI CRM Assistant. Jay lets you manage your CRM with voice commands."
+msgstr "Verbind uw Odoo-instantie met Jay AI CRM Assistent. Jay laat u uw CRM beheren met spraakopdrachten."
+
+msgid "Jay Instance URL"
+msgstr "Jay Instantie URL"
+
+msgid "Jay Account Email"
+msgstr "Jay Account E-mail"
+
+msgid "Jay API Key"
+msgstr "Jay API-sleutel"
+
+msgid "Connected"
+msgstr "Verbonden"
+
+msgid "Test Connection"
+msgstr "Verbinding testen"
+
+msgid "Disconnect"
+msgstr "Verbinding verbreken"
+
+msgid "How it works"
+msgstr "Hoe het werkt"
+
+msgid "Voice-to-CRM"
+msgstr "Spraak naar CRM"
+
+msgid "Record a voice note in Jay, and your contacts, deals, activities, and meetings are automatically synced to Odoo."
+msgstr "Neem een spraaknotitie op in Jay en uw contacten, deals, activiteiten en vergaderingen worden automatisch gesynchroniseerd met Odoo."
+
+msgid "Supported objects"
+msgstr "Ondersteunde objecten"
+
+msgid "Contacts, Companies, Opportunities (CRM Leads), Activities, Calendar Events, and Notes."
+msgstr "Contacten, Bedrijven, Kansen (CRM Leads), Activiteiten, Agenda-afspraken en Notities."
+
+msgid "Anti-duplicate"
+msgstr "Anti-duplicaat"
+
+msgid "Jay detects existing records before creating new ones to keep your data clean."
+msgstr "Jay detecteert bestaande records voordat nieuwe worden aangemaakt om uw gegevens schoon te houden."
+
+msgid "Please fill in both the Jay Instance URL and API Key before testing."
+msgstr "Vul zowel de Jay Instantie URL als de API-sleutel in voordat u test."
+
+msgid "Connection successful"
+msgstr "Verbinding geslaagd"
+
+msgid "Jay is connected and ready to sync your CRM data."
+msgstr "Jay is verbonden en klaar om uw CRM-gegevens te synchroniseren."
+
+msgid "Disconnected"
+msgstr "Verbinding verbroken"
+
+msgid "Jay has been disconnected from Odoo."
+msgstr "Jay is losgekoppeld van Odoo."

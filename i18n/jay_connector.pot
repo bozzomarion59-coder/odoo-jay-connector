@@ -1,0 +1,117 @@
+# Translation template for Jay CRM Assistant
+msgid ""
+msgstr ""
+"Project-Id-Version: Jay CRM Assistant 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: hey@jay-assistant.fr\n"
+"POT-Creation-Date: 2026-03-13 12:00+0000\n"
+"PO-Revision-Date: 2026-03-13 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Jay CRM Assistant"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Jay Connection"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Connect your Odoo instance to Jay AI CRM Assistant. Jay lets you manage your CRM with voice commands."
+msgstr ""
+
+#. module: jay_connector
+#: model:res.config.settings,help:jay_connector.field_res_config_settings__jay_api_url
+msgid "Jay Instance URL"
+msgstr ""
+
+#. module: jay_connector
+#: model:res.config.settings,help:jay_connector.field_res_config_settings__jay_user_email
+msgid "Jay Account Email"
+msgstr ""
+
+#. module: jay_connector
+#: model:res.config.settings,help:jay_connector.field_res_config_settings__jay_api_key
+msgid "Jay API Key"
+msgstr ""
+
+#. module: jay_connector
+#: model:res.config.settings,help:jay_connector.field_res_config_settings__jay_connected
+msgid "Connected"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Test Connection"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Disconnect"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "How it works"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Voice-to-CRM"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Record a voice note in Jay, and your contacts, deals, activities, and meetings are automatically synced to Odoo."
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Supported objects"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Contacts, Companies, Opportunities (CRM Leads), Activities, Calendar Events, and Notes."
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Anti-duplicate"
+msgstr ""
+
+#. module: jay_connector
+#: model:ir.ui.view,arch_db:jay_connector.res_config_settings_view_form_jay
+msgid "Jay detects existing records before creating new ones to keep your data clean."
+msgstr ""
+
+#. module: jay_connector
+#: code:addons/jay_connector/models/jay_connector.py
+msgid "Please fill in both the Jay Instance URL and API Key before testing."
+msgstr ""
+
+#. module: jay_connector
+#: code:addons/jay_connector/models/jay_connector.py
+msgid "Connection successful"
+msgstr ""
+
+#. module: jay_connector
+#: code:addons/jay_connector/models/jay_connector.py
+msgid "Jay is connected and ready to sync your CRM data."
+msgstr ""
+
+#. module: jay_connector
+#: code:addons/jay_connector/models/jay_connector.py
+msgid "Disconnected"
+msgstr ""
+
+#. module: jay_connector
+#: code:addons/jay_connector/models/jay_connector.py
+msgid "Jay has been disconnected from Odoo."
+msgstr ""

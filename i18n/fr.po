@@ -1,0 +1,76 @@
+# French translation for Jay CRM Assistant
+msgid ""
+msgstr ""
+"Project-Id-Version: Jay CRM Assistant 18.0.1.0.0\n"
+"Report-Msgid-Bugs-To: hey@jay-assistant.fr\n"
+"POT-Creation-Date: 2026-03-13 12:00+0000\n"
+"PO-Revision-Date: 2026-03-13 12:00+0000\n"
+"Last-Translator: HEY JAY <hey@jay-assistant.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Jay CRM Assistant"
+msgstr "Jay - Assistant CRM"
+
+msgid "Jay Connection"
+msgstr "Connexion Jay"
+
+msgid "Connect your Odoo instance to Jay AI CRM Assistant. Jay lets you manage your CRM with voice commands."
+msgstr "Connectez votre instance Odoo a Jay, assistant CRM par intelligence artificielle. Jay vous permet de gerer votre CRM par commandes vocales."
+
+msgid "Jay Instance URL"
+msgstr "URL de l'instance Jay"
+
+msgid "Jay Account Email"
+msgstr "Email du compte Jay"
+
+msgid "Jay API Key"
+msgstr "Cle API Jay"
+
+msgid "Connected"
+msgstr "Connecte"
+
+msgid "Test Connection"
+msgstr "Tester la connexion"
+
+msgid "Disconnect"
+msgstr "Deconnecter"
+
+msgid "How it works"
+msgstr "Comment ca marche"
+
+msgid "Voice-to-CRM"
+msgstr "Voix vers CRM"
+
+msgid "Record a voice note in Jay, and your contacts, deals, activities, and meetings are automatically synced to Odoo."
+msgstr "Enregistrez une note vocale dans Jay, et vos contacts, opportunites, activites et rendez-vous sont automatiquement synchronises dans Odoo."
+
+msgid "Supported objects"
+msgstr "Objets supportes"
+
+msgid "Contacts, Companies, Opportunities (CRM Leads), Activities, Calendar Events, and Notes."
+msgstr "Contacts, Societes, Opportunites (Pistes CRM), Activites, Evenements du calendrier et Notes."
+
+msgid "Anti-duplicate"
+msgstr "Anti-doublons"
+
+msgid "Jay detects existing records before creating new ones to keep your data clean."
+msgstr "Jay detecte les enregistrements existants avant d'en creer de nouveaux pour garder vos donnees propres."
+
+msgid "Please fill in both the Jay Instance URL and API Key before testing."
+msgstr "Veuillez remplir l'URL de l'instance Jay et la cle API avant de tester."
+
+msgid "Connection successful"
+msgstr "Connexion reussie"
+
+msgid "Jay is connected and ready to sync your CRM data."
+msgstr "Jay est connecte et pret a synchroniser vos donnees CRM."
+
+msgid "Disconnected"
+msgstr "Deconnecte"
+
+msgid "Jay has been disconnected from Odoo."
+msgstr "Jay a ete deconnecte d'Odoo."

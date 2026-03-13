@@ -1,0 +1,22 @@
+{
+    'name': 'Jay CRM Assistant',
+    'version': '18.0.1.0.0',
+    'summary': 'AI voice assistant that syncs your CRM data automatically',
+    'description': '',
+    'author': 'HEY JAY',
+    'website': 'https://www.jay-assistant.fr',
+    'license': 'GPL-3',
+    'category': 'Sales/CRM',
+    'depends': ['crm', 'contacts', 'calendar'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/jay_connector_views.xml',
+    ],
+    'images': ['static/description/screenshots/screenshot1.png'],
+    'installable': True,
+    'application': False,
+    'auto_install': False,
+    'price': 0,
+    'currency': 'EUR',
+    'support': 'hey@jay-assistant.fr',
+}
