@@ -5,11 +5,10 @@
     'description': '',
     'author': 'HEY JAY',
     'website': 'https://www.jay-assistant.fr',
-    'license': 'GPL-3',
+    'license': 'LGPL-3',
     'category': 'Sales/CRM',
     'depends': ['crm', 'contacts', 'calendar'],
     'data': [
-        'security/ir.model.access.csv',
         'views/jay_connector_views.xml',
     ],
     'images': ['static/description/screenshots/screenshot1.png'],
