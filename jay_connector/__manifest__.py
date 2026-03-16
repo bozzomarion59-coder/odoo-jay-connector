@@ -14,7 +14,7 @@
     ],
     'images': ['static/description/screenshots/screenshot1.png'],
     'installable': True,
-    'application': False,
+    'application': True,
     'auto_install': False,
     'price': 0,
     'currency': 'EUR',
